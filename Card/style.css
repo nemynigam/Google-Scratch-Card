@@ -3,23 +3,13 @@ body {
 }
 
 .container {
-  position: center;
-  width: 578px;
+    width: 578px;
   height: 578px;
-  margin: 0 auto;
-  -webkit-user-select: none; 
-  -moz-user-select: none;
-  -ms-user-select: none; 
-  -o-user-select: none;
-  user-select: none;
+  margin:  auto;
 }
  
 .canvas {
   padding-top: 20px;
   position: absolute;
-  top: 0;
 }
 
-.form {
-  padding: 20px;
-}
