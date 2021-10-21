@@ -30,29 +30,43 @@ This issue is meant for potential bugs. Please provide the following information
 
 Brief walkthrough on what changes being done:
 
-- Issue or Feature being implemented
-- Short summary of what is being done
+**1.** Fork the repository by clicking on the *fork* symbol at the top right corner.
 
-### Update your fork
+**2.** Clone the forked repository.
 
-Is your fork not up-to-date with the NBA-Search code? Most of the time that isn't a problem. But if you like to "sync back" the changes to your repository, execute the following command:
+~~ ```
+~~    git clone RepositoryLink
+~~ ```
 
-The first time:
 
-```
-git remote add upstream https://github.com/redxzeta/Awesome-Adoption.git
-```
+**3.** Create a new branch:
 
-After that your repository will have two remotes. You could update your remote (the fork) in the following way:
+~~ ```
+~~    git checkout -b YourBranchName
+~~ ```
 
-```
-git fetch upstream
-git checkout <your feature branch>
-git rebase upstream/main
-..fix if needed and
-git push -f
-```
+**4.** Make changes in source code.
 
-if `rebase` won't work well, use `git merge main` as alternative.
+**5.** Stage your changes and make a commit
 
-It's also possible to send a PR in the opposite direction, but that's not preferred as it will pollute the commit log.
+~~ ```
+~~    git add .
+~~ ```
+
+~~ ```
+~~    git commit -m "<your_commit_message>"
+~~ ```
+
+**6.** Push your local commits to the remote repo.
+
+~~ ```
+~~    git push origin YourBranchName
+~~ ```
+
+**7.** Create a Pull Request/PR
+
+### Resources
+
+- [How to Contribute to Open Source]
+- [Using Pull Requests]
+- [GitHub Help]
