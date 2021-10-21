@@ -38,7 +38,6 @@ Brief walkthrough on what changes being done:
 ~~    git clone RepositoryLink
 ~~ ```
 
-
 **3.** Create a new branch:
 
 ~~ ```
