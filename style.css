@@ -1,13 +1,16 @@
+/* Styles for the body html tag. adds a padding of 20px at the top and bottom of the body html tag  */
 body {
   padding: 20px 0;
 }
 
+/* Styles for a div with the container classname. Adds height and width as well as margin */
 .container {
-    width: 578px;
+  width: 578px;
   height: 578px;
-  margin:  auto;
+  margin: auto;
 }
  
+/* Styles for canvas with classname canvas. Adds padding of 20px at the top and absolute positioning to the element */
 .canvas {
   padding-top: 20px;
   position: absolute;
